@@ -1,0 +1,117 @@
+main{
+    section{
+        table{
+            .letratostado{
+                padding-top: 30px;
+            }
+        }
+    }
+}
+main{
+    section{
+        div{
+            background-color: transparent !important;
+            color: #faf6d7;
+            font-size: 20px
+        }
+    }
+}
+main{
+    div{
+        section{
+            div{
+                .card{
+                    background-color: transparent !important;
+                }
+        }
+    }
+}
+main{
+    .productos{
+        padding-top: 30px;
+    }
+}
+main{
+    h1{
+        font-size: 3.5rem;
+        padding-top: 20px;
+        padding-bottom: 20px
+    }
+    .letra{
+        color: #333;
+    }
+}
+footer{
+    margin-top: 30px;
+}
+.imagen{
+    height: 200px;
+}
+img{
+    height: auto;
+    max-height: 100%;
+}
+main{
+    section{
+        div.curva{
+            img{
+             padding-bottom: 50px;
+             }
+        }
+    }
+}
+div{
+    form{
+        div.col-6{
+            color:#faf6d7
+        }
+        div.col-12{
+            color:#faf6d7;
+        }
+    }
+}
+.carousel-dark .carousel-indicators [data-bs-target]{
+    background-color: #fff;
+}
+.carousel-dark .carousel-control-next-icon, .carousel-dark .carousel-control-prev-icon{
+    filter: invert(0) grayscale(100);
+}
+ordion{
+    padding-top: 16px;
+}
+.nota {
+    font-size: 16px;
+    padding-top: 5px;
+    color: #faf6d7;  
+}
+.figure-caption{
+    font-size: 1.5rem;
+   color:#faf6d7;
+    font-family: 'Manrope', sans-serif;
+}
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 425px) {
+    .min_footer {
+        display: none !important;
+    }
+    .taza {
+        display: none !important; }
+    }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+     footer {
+    display: none !important;
+    }
+    .taza {
+    display: none !important; }
+}  
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { ... }

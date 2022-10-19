@@ -1,118 +1,151 @@
 /*font-family: 'Manrope', sans-serif;*/
-html{
-    height: 100%;
-}
-header .navbar{
-    background-color: transparent !important;
-    backdrop-filter: blur(30px);
-    padding-bottom: 20px;
-    font-size: 1.5rem;
-    
-}
-.logo{
-    height: 80px;
-}
-body{
-    padding-top: 16px;
-    background: url(../assets/images/Fondo2-2.jpg);
-    backdrop-filter: blur(2px);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    display: flex;
-    flex-direction: column;
-    min-height: 100%;
-}
-.acordion{
-    padding-top: 16px;
-}
-.accordion-item{
-    background-color: transparent !important;
-    color: #faf6d7;
-    font-size: 20px;
+html {
+  height: 100%; 
 }
 
-.nota{
-    font-size: 16px;
-    padding-top: 5px;
-    color:#faf6d7;
-}
-.col-6{
-    color:#faf6d7;
-}
-.col-12{
-    color:#faf6d7;
-}
-.card{
-    
-    background-color: transparent !important;
-}
-.productos{
-    padding-top: 30px;
-}
-.titulo2{
-    font-size: 3.5rem;
-    padding-top: 20px;
-    padding-bottom: 20px;
+header .navbar {
+  background-color: transparent !important;
+  backdrop-filter: blur(90px);
+  padding-bottom: 20px;
+  font-size: 1.5rem;
+} 
+  
+.logo {
+  height: 80px; 
 }
 
-.letra{
-    color: #333;
+body {
+  padding-top: 16px;
+  background: url(../assets/images/Fondo2-2.jpg);
+  backdrop-filter: blur(8px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%; 
 }
-footer{
-    margin-top: auto;
-}
-.imagen{
-    height: 200px;
-}
-img{
-    height: auto;
-    max-height: 100%;
-}
-.taza{
-    padding-bottom: 20px;
-}
-.carousel-dark .carousel-indicators [data-bs-target]{
-    background-color: #fff;
-}
-.carousel-dark .carousel-control-next-icon, .carousel-dark .carousel-control-prev-icon{
-    filter: invert(0) grayscale(100);
 
+  div.curva {
+  width: 96%;
+  max-width: 960px;
+  margin:0 auto;
 }
-.figure-caption{
-    font-size: 1.5rem;
-   color:#faf6d7;
-    font-family: 'Manrope', sans-serif;
+.curvas {
+  width: 100%;
+  height: auto;
 }
-h1{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color:#faf6d7;
-    font-family: 'Manrope', sans-serif;
+.acordion {
+  padding-top: 16px; 
 }
-h2{
-    color:#faf6d7;
-    font-family: 'Manrope', sans-serif;
+
+.accordion-item {
+  background-color: transparent !important;
+  color: #faf6d7;
+  font-size: 20px;
+ }
+
+.nota {
+  font-size: 16px;
+  padding-top: 5px;
+  color: #faf6d7; 
 }
-h3{
-    color: black;
-    font-family: 'Manrope', sans-serif;
+
+.col-6 {
+  color: #faf6d7; 
 }
-h4{
-    color:#faf6d7;
-    font-family: 'Manrope', sans-serif;
+
+.col-12 {
+  color: #faf6d7; 
 }
-h5{
-    
-    color:#faf6d7;
-    font-family: 'Manrope', sans-serif;
+
+.card {
+  background-color: transparent !important;
+ }
+
+.productos {
+  padding-top: 30px; 
 }
-h6{
-    font-size: 20px;
-    color:#faf6d7;
-    font-family: 'Manrope', sans-serif;
+
+.titulo2 {
+  font-size: 3.5rem;
+  padding-top: 60px;
+  padding-bottom: 30px; 
 }
-p{
-    color:#faf6d7;
-    font-family: 'Manrope', sans-serif;
+
+.letra {
+  color: #333; }
+
+footer {
+  margin-top: 30px; 
 }
+
+.imagen {
+  height: 200px; 
+}
+ 
+img {
+  height: auto;
+  max-height: 100%; 
+}
+
+
+
+.taza {
+  padding-bottom: 20px; 
+}
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+  background-color: #fff; 
+}
+
+.carousel-dark .carousel-control-next-icon, .carousel-dark .carousel-control-prev-icon {
+  filter: invert(0) grayscale(100); 
+}
+
+.figure-caption {
+  font-size: 1.5rem;
+  color: #faf6d7;
+  font-family: 'Manrope', sans-serif; 
+}
+
+h1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #faf6d7;
+  font-family: 'Manrope', sans-serif; 
+}
+
+h2 {
+  color: #faf6d7;
+  font-family: 'Manrope', sans-serif; 
+}
+
+h3 {
+  color: #faf6d7;
+  font-family: 'Manrope', sans-serif; 
+}
+
+h4 {
+  color: #faf6d7;
+  font-family: 'Manrope', sans-serif;
+ }
+
+h5 {
+  color: #ffc107;
+  font-family: 'Manrope', sans-serif; 
+}
+
+h6 {
+  font-size: 20px;
+  color: #faf6d7;
+  font-family: 'Manrope', sans-serif; 
+}
+
+p {
+  color: #faf6d7;
+  text-shadow: 0px 0px 7px black;
+  font-family: 'Manrope', sans-serif; 
+}
+
+
